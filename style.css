@@ -1,0 +1,76 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 675px;
+    max-height: 350px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.top {
+    max-width: 548px;
+    margin: auto;
+}
+
+.middle {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.col-4 {
+    grid-column: span 4;
+}
+
+.col-12 {
+    grid-column: span 12;
+}
+
+.tab-name {
+    margin: 5px;
+}
+
+.tab {
+    border-top: 0.5px solid black;
+    border-left: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+#materials {
+    border-right: 0.5px solid black;
+    color: white;
+    background-color: black;
+}
+
+.materials-info .percentage {
+    font-size: 45px;
+    line-height: 1em;
+}
+
+.materials-info .material {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#info {
+    font-size: 12px;
+}
+
+hr {
+    width: 45px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
